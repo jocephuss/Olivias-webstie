@@ -1,11 +1,50 @@
-header {
+#header {
 
 }
 h1 {
     text-align: center;
     color: rgb(95, 4, 4);
     font-size: 50px;
+    
 }
+p {
+    text-align: center;
+    color: rgb(95, 4, 4);
+    font-size: 25px;
+}
+a {
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.card {
+    height: 200px;
+    width: 60%;
+    margin: 40px auto;
+    border: 5px solid white;
+    box-shadow: 5px 10px rgb(95, 4, 4);
+    background-color: rgba(250, 235, 215, 0.37);
+}
+.footerLinks {
+    color: antiquewhite;
+    text-align: center;
+
+}
+.copyright {
+    color: antiquewhite;
+}
+h2 {
+    text-align: center;
+    color: rgb(95, 4, 4);
+    font-size: 30px;
+}
+/* img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}*/
 
 body {
     background-image: url(_faf50c44-0808-4d27-8411-7ce0ddf70664.jpg);
