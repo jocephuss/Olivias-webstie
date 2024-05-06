@@ -2,50 +2,95 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --red: rgb(95, 4, 4);
+    --white: antiquewhite;
+    --border: white;
+    --backGround: rgba(250, 235, 215, 0.37);
+}
+body {
+    background-image: url(_faf50c44-0808-4d27-8411-7ce0ddf70664.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 header {
+    padding: 20px;
+    background-color: var(--backGround);
+    border-radius: 0 0 25px 25px;
+    box-shadow: 5px 10px var(--red);
+    border: 5px solid var(--border);
     
 
 }
 
 h1 {
     text-align: center;
-    color: rgb(95, 4, 4);
+    color: var(--red);
     font-size: 50px;
     
 }
-p {
+
+h2 {
+    visibility: visible;
     text-align: center;
-    color: rgb(95, 4, 4);
+    color: var(--red);
+    font-size: 30px;
+    text-decoration: underline;
+    cursor: help;
+}
+
+p {
+   /*  visibility: hidden;*/
+    text-align: center;
+    color: var(--red);
     font-size: 20px;
     margin-top: 10px;
+
 }
+/* #Book-One:hover{
+    visibility: visible;
+}*/
 a {
-    color: antiquewhite;
+    color: var(--red);
     font-size: 20px;
 }
 
 .card {
+    padding: 1%;
     height: 300px;
     width: 60%;
     margin: 40px auto;
-    border: 5px solid white;
-    box-shadow: 5px 10px rgb(95, 4, 4);
+    border: 5px solid var(--border);
+    box-shadow: 5px 10px var(--red);
     background-color: rgba(250, 235, 215, 0.37);
+    /* transform: rotate(2deg);
+*/    border-radius: 20px;
+}
+/*
+#Book-Two {
+transform: rotate(-2deg);
+
+}*/
+
+footer {
+    padding: 20px;
+    background-color: var(--backGround);
+    border-radius: 25px 25px 0 0 ;
+/*  box-shadow: 5px 10px var(--red); */
+    border: 5px solid var(--border);
 }
 .footerLinks {
-    color: antiquewhite;
+    color: var(--red);
     text-align: center;
 
 }
 .copyright {
-    color: antiquewhite;
+    color: var(--white);
 }
-h2 {
-    text-align: center;
-    color: rgb(95, 4, 4);
-    font-size: 30px;
-}
+
+
 /* img {
     display: block;
     height: auto;
@@ -53,10 +98,21 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }*/
-
-body {
-    background-image: url(_faf50c44-0808-4d27-8411-7ce0ddf70664.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+/* 
+@media screen and (max-width 992px) {
+    .card {
+        flex-direction: column;
+    }
+    
 }
+@media screen and (max-width 768px) {
+    .card {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width 375px) {
+    .card {
+        flex-direction: column;
+    }
+}
+*/
