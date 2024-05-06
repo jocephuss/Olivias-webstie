@@ -9,7 +9,7 @@
     --backGround: rgba(250, 235, 215, 0.37);
 }
 body {
-    background-image: url(_faf50c44-0808-4d27-8411-7ce0ddf70664.jpg);
+    background-image: url(backgroundimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
