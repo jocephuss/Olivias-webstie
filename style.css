@@ -6,8 +6,10 @@
     --red: rgb(95, 4, 4);
     --white: antiquewhite;
     --border: white;
-    --backGround: rgba(250, 235, 215, 0.37);
+    --backGround: rgba(253, 239, 221, 0.719);
 }
+
+
 body {
     background-image: url(the-1.jpg);
     background-repeat: no-repeat;
@@ -23,6 +25,7 @@ header {
     border-radius: 0 0 25px 25px;
     box-shadow: 5px 10px var(--red);
     border: 5px solid var(--border);
+    margin-bottom: 30px;
     
 
 }
@@ -68,16 +71,30 @@ a {
     margin: 40px auto;
     border: 5px solid var(--border);
     box-shadow: 5px 10px var(--red);
-    background-color: rgba(250, 235, 215, 0.37);
+    background-color: var(--backGround);
     /* transform: rotate(2deg);
 */    border-radius: 20px;
 
 }
-/*
-#Book-Two {
-transform: rotate(-2deg);
 
-}*/
+.left, img{
+    margin: auto;
+    height: 300px;
+    width: 200px;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid var(--red);
+    border-radius: 10px;
+}
+
+.right, img{
+    display: flex;
+    justify-content: center;
+
+
+}
+
 
 footer {
     padding: 20px;
@@ -104,7 +121,9 @@ footer {
  p,
  #Book-One,
  #Book-Two,
- #book-Three
+ #book-Three,
+ .left,
+ .right
  {  
     text-justify: auto;
     display: flex;
