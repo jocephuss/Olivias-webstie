@@ -7,6 +7,7 @@
     --white: antiquewhite;
     --border: white;
     --backGround: rgba(253, 239, 221, 0.719);
+    --opacity: 80%;
 }
 
 
@@ -79,9 +80,10 @@ a {
 
 .card:hover {
     transform: scale(1.1);
+    transition: ease-in-out .75s;
 }
 
-.left, img{
+.charecters, img{
     margin: auto;
     height: 300px;
     width: 200px;
@@ -91,6 +93,7 @@ a {
     border: 5px solid var(--red);
     border-radius: 10px;
 }
+
 
 .right, img{
     display: flex;
